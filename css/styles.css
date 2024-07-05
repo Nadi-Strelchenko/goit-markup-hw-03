@@ -185,7 +185,8 @@ a {
 /*----------------FEATURES----------------*/
 
 .features {
-  padding: 120px 0 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-container {
