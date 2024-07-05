@@ -119,7 +119,18 @@ a {
   color: #404bbf;
 }
 
-/*!-----------------  -----------------!*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /*?----------------HERO----------------?*/
 
@@ -171,8 +182,6 @@ a {
   background-color: #404bbf;
 }
 
-/*?------------------  ------------------?*/
-
 /*----------------FEATURES----------------*/
 
 .features {
@@ -181,7 +190,6 @@ a {
 }
 
 .features-container {
-  display: flex;
   align-items: center;
 }
 
@@ -212,31 +220,62 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*-------------------  -------------------*/
 
 /*------------------TEAM------------------*/
 .team {
   background: #f4f4fd;
 }
 
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  padding-top: 120px;
 }
 
 .team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .team-item {
   background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .team-subtitle {
@@ -246,6 +285,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -256,24 +296,28 @@ a {
   color: #434455;
 }
 
-/*-------------------  -------------------*/
-
 /*!---------------PORFOLIO---------------!*/
 
 .portfolio {
 }
+.portfolio-container {
+}
 
 .portfolio-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  padding-top: 120px;
 }
 
 .portfolio-list {
+   display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;}
 }
 
 .portfolio-item {
@@ -296,8 +340,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-/*!------------------  ------------------!*/
 
 /*-----------------FOOTER-----------------*/
 
