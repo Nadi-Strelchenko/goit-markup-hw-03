@@ -226,7 +226,8 @@ a {
 }
 
 .team-container {
-  padding: 120px 0 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -297,7 +298,8 @@ a {
 .portfolio {
 }
 .portfolio-container {
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
