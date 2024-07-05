@@ -185,8 +185,7 @@ a {
 /*----------------FEATURES----------------*/
 
 .features {
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding: 120px 0 120px;
 }
 
 .features-container {
@@ -227,7 +226,7 @@ a {
 }
 
 .team-container {
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 
 .team-title {
@@ -298,7 +297,7 @@ a {
 .portfolio {
 }
 .portfolio-container {
-  padding: 140px 0 120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
