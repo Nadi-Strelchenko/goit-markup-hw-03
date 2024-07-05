@@ -315,9 +315,9 @@ a {
 }
 
 .portfolio-list {
-   display: flex;
-        flex-wrap: wrap;
-        gap: 48px 24px;}
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 
 .portfolio-item {
