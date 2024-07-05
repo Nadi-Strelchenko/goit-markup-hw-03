@@ -224,11 +224,11 @@ a {
 /*------------------TEAM------------------*/
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title {
@@ -297,10 +297,10 @@ a {
 /*!---------------PORFOLIO---------------!*/
 
 .portfolio {
-}
-.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.portfolio-container {
 }
 
 .portfolio-title {
